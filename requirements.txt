@@ -1,0 +1,2 @@
+# This project uses Python's built-in standard library only.
+# No pip install is required.

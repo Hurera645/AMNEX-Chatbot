@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AMNEX AI Chatbot</title>
+    <link rel="stylesheet" href="/static/style.css" />
+</head>
+
+<body>
+    <div class="chat-app">
+        <header class="topbar">
+            <div class="topbar-left">
+                <p class="eyebrow">AI Assistant</p>
+                <h1 class="brand-name">
+                    <span class="brand-main">AMNEX</span>
+                    <span class="brand-sub">AI Chatbot</span>
+                </h1>
+            </div>
+            <button id="resetChat" class="reset-btn" type="button">Reset</button>
+        </header>
+
+        <main class="chat-box" id="chatBox">
+            <div class="message bot">
+                <div class="meta">AI</div>
+                <span>Hello! I’m ready to help. Ask me anything.</span>
+            </div>
+        </main>
+
+        <form id="chatForm" class="chat-form">
+            <input id="userInput" type="text" placeholder="Type your message..." autocomplete="off" required />
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+
+</html>
